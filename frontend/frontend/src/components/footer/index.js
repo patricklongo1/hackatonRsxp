@@ -13,7 +13,9 @@ export default function footer() {
             <FaWhatsapp color="#22b573" size={25} />
             <FaInstagram color="#22b573" size={25} />
         </IconsBox>
-        <Button text="LogOut"/>
+        <div>
+            <Button text="LogOut"/>
+        </div>
     </Container>
   );
 }
