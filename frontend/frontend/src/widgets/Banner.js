@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Box, Info } from './styles/banner-home';
+import { Box, Info, Img } from './styles/banner-home';
 import Title from '../components/title/Title';
 import Text from '../components/text/Text';
 import Button from '../components/buttonBig/Button';
+import Coding from '../assets/banner/CodingBanner.svg';
 
 class Banner extends Component {
     render() {
@@ -25,7 +26,9 @@ class Banner extends Component {
                         <Button text="Bora Codar" />
                     </div>
                 </Info>
-                <div>2</div>
+                <Img>
+                    <img src={Coding} alt="Garoto codando" />
+                </Img>
             </Box>
         );
     }
