@@ -1,7 +1,8 @@
 import React from 'react';
+import LogoStyle from './style';
 
 const Logo = () => {
-    return <h1>HighSchoolDev</h1>;
+    return <LogoStyle>hsDEV</LogoStyle>;
 };
 
 export default Logo;

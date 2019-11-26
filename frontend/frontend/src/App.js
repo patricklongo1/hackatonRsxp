@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Component, Fragment } from 'react';
+import Header from './widgets/Header';
 
-function App() {
-    return <h1>teste</h1>;
+class App extends Component {
+    render() {
+        return <Header />;
+    }
 }
 
 export default App;
