@@ -17,6 +17,8 @@ const Info = styled.div`
     .title__header_first,
     .title__header_second,
     .button__header {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 20px 30px;
         display: flex;
         flex-direction: column;
@@ -24,4 +26,11 @@ const Info = styled.div`
     }
 `;
 
-export { Box, Info };
+const Img = styled.div`
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40%;
+    align-items: center;
+`;
+
+export { Box, Info, Img };
