@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     margin-top: 10px;
+    margin-left: 140px;
     height: 50px;
     border-top: 2px solid #d6d6d6;
     display: flex;
@@ -9,7 +10,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     div {
-        margin: 0 20px 0 -30px;
+        margin: 0 50px 0 0px;
     }
 `;
 
