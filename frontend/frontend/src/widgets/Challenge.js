@@ -3,6 +3,7 @@ import Box from './styles/challenge';
 import Title from '../components/title/Title';
 import Text from '../components/text/Text';
 import ButtonR from '../components/buttonRounded/Button';
+import teenCoding from '../assets/images/teenCoding.jpg';
 
 class Challenge extends Component {
     render() {
@@ -27,9 +28,16 @@ class Challenge extends Component {
                         <span style={{ width: '330px' }}>
                             <Text text="Aprender programação de uma forma simples e divertida. Realize nossos desafios e suba de nível." />
                         </span>
+                        <ButtonR text="Ver desafios" />
                     </div>
                 </div>
-                <div className="challenge__second">2</div>
+                <div className="challenge__second">
+                    <img
+                        className="challenge__second__image"
+                        src={teenCoding}
+                        alt="Professor com alunos"
+                    />
+                </div>
             </Box>
         );
     }

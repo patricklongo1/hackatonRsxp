@@ -31,6 +31,15 @@ const Box = styled.div`
 
     .challenge__second {
         width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .challenge__second__image {
+            width: 70%;
+            border-radius: 20px;
+        }
     }
 `;
 
