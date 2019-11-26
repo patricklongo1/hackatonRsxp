@@ -3,9 +3,9 @@ import { Container, Numero, Texto } from './styles';
 
 const Contador = props => {
     return (<Container>
-        <Numero>{props.numero, props.icone}</Numero>
+        <Numero>{props.numero} {props.icone}</Numero>
         <Texto>{props.texto}</Texto>
     </Container>);
 }
 
-export default Botao;
+export default Contador;
