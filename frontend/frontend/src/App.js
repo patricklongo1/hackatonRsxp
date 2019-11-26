@@ -4,6 +4,7 @@ import Banner from './widgets/Banner';
 import Contadores from './widgets/Contadores'
 import Footer from './widgets/Footer';
 import InterEscola from './widgets/InterEscola';
+import Challenge from './widgets/Challenge';
 
 import GlobalStyle from './styles/global';
 
@@ -14,6 +15,7 @@ class App extends Component {
                 <GlobalStyle />
                 <Header />
                 <Banner />
+                <Challenge />
                 <InterEscola />
                 <Contadores />
                 <Footer />
