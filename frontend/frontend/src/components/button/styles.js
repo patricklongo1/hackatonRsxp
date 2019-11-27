@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Button = styled.button`
     border: 0;
     background: none;
-    font-size: 17px;
+    font-size: 14px;
     color: #545454;
     transition: color 0.2s;
 
