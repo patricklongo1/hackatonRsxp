@@ -5,6 +5,10 @@ export const Container = styled.div`
 `;
 
 export const Numero = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 80px;
     font-weight: bold;
     color: #fff;

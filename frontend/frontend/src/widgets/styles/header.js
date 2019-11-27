@@ -10,11 +10,14 @@ const Menu = styled.div`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-        div.items_menu {
-            width: 200px;
-            display: flex;
-            justify-content: space-between;
+    div.items_menu {
+        display: flex;
+        flex-direction: row;
+
+        .items_menu_option {
+            margin-left: 10px;
         }
+    }
 `;
 
 export default Menu;
