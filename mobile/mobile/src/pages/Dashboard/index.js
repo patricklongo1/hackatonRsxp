@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {Text} from 'react-native';
 
@@ -15,12 +15,15 @@ import {
     RankingText,
 } from './styles';
 
-export default function Dashboard() {
+export default function Dashboard({navigation}) {
+    const [user, setUser] = useState(navigation.getParam('user'));
+    console.log(user);
+
     return (
         <Container>
             <Header />
             <Content>
-                <Name>Juliano NOgueira</Name>
+                <Name>{user.user.name}</Name>
                 <PontuationText>Pontuação</PontuationText>
                 <PutuationValue>97</PutuationValue>
                 <Ranking>Ranking</Ranking>
