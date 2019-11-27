@@ -4,6 +4,7 @@ import InterEscola from '../widgets/InterEscola';
 import Challenge from '../widgets/Challenge';
 import Banner from '../widgets/Banner';
 import Contadores from '../widgets/Contadores';
+import Aluno from '../widgets/Aluno';
 import MainRank from '../widgets/MainRank';
 
 const Routes = () => {
