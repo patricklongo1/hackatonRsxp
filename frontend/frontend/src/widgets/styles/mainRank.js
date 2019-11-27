@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Box = styled.div`
-    height: 800px;
+    height: 650px;
     width: 1200px;
-    background: #eee;
+    padding: 60px;
     align-self: center;
     margin: 30px auto;
     display: flex;
