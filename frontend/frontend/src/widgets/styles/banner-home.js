@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const Box = styled.div`
+    max-width: 1020px;
     width: 90%;
     height: 330px;
     margin: 0 5%;
@@ -14,12 +15,28 @@ const Info = styled.div`
     display: flex;
     flex-direction: column;
 
-    .title__header_first,
-    .title__header_second,
+    .title__header_first {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 30px 30px 40px 30px;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .title__header_second {
+        font-size: 0.9rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px;
+    }
+
     .button__header {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
             Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin: 20px 30px;
+        margin: 30px 30px 40px 30px;
         display: flex;
         flex-direction: column;
         color: #fff;
@@ -27,6 +44,7 @@ const Info = styled.div`
 `;
 
 const Img = styled.div`
+    margin-right: 40px;
     display: flex;
     flex-direction: row-reverse;
     width: 40%;

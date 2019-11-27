@@ -17,9 +17,7 @@ class Banner extends Component {
 
                     <div className="title__header_second">
                         <Title text="Aqui você vira craque!" />
-                        <Text
-                            text={`Aprenda a programar de um jeito fácil e dispute com seus amigos e até mesmo com outras escolas`}
-                        />
+                        <Text text="Aprenda a programar de um jeito fácil e dispute com seus amigos e até mesmo com outras escolas" />
                     </div>
 
                     <div className="button__header">

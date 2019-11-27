@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const Menu = styled.div`
+    max-width: 1020px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
