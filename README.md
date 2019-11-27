@@ -1,7 +1,9 @@
+# High School Dev
+
 ### hackatonRsxp
 ### Projeto desenvolvido para Hackaton da Rocketseat Experience
 
-# High School Dev
+![Home](https://github.com/patricklongo1/hackatonRsxp/blob/master/img.png)
 
 ### Desafiar, Aprender e Conquistar!
 
