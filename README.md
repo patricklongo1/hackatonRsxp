@@ -1,17 +1,17 @@
-# hackatonRsxp
-Projeto desenvolvido para Hackaton da Rocketseat Experience
+### hackatonRsxp
+### Projeto desenvolvido para Hackaton da Rocketseat Experience
 
-High School Dev
+# High School Dev
 
-Desafiar, Aprender e Conquistar!
+### Desafiar, Aprender e Conquistar!
 
-Quem somos?
+##### Quem somos?
 Uma plataforma que incentiva programação
 
-O que fazemos?
+##### O que fazemos?
 Levamos programação para os jovens através das escolas
 
-Como fazemos?
+##### Como fazemos?
 Ensinamos programação desafiando os alunos.
 
 Em nosso sistema oferecemos uma plataforma onde as escolas tem informações sobre o desempenho dos seus alunos.
