@@ -41,6 +41,36 @@ export const Pontuacao = styled.div`
     }
 `;
 
+export const Pontos = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+
+    table {
+        width: 100%;
+        margin-left: 50px;
+
+        thead {
+            td {
+                font-weight: bold;
+            }
+        }
+
+        tbody {
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+            td {
+                border: 0px solid #dddddd;
+                padding: 18px;
+            }
+        }
+    }
+`;
+
 export const Ranking = styled.div`
     display: flex;
     align-items: center;
