@@ -4,6 +4,7 @@ import InterEscola from '../widgets/InterEscola';
 import Challenge from '../widgets/Challenge';
 import Banner from '../widgets/Banner';
 import Contadores from '../widgets/Contadores';
+import MainRank from '../widgets/MainRank';
 
 const Routes = () => {
     return (
@@ -12,15 +13,24 @@ const Routes = () => {
                 exact
                 path="/"
                 render={() => (
-                    <Fragment>
+                    <>
                         <Banner />
                         <Challenge />
                         <InterEscola />
                         <Contadores />
-                    </Fragment>
+                    </>
                 )}
             />
             <Route exact path="/login" component={Banner} />
+            <Route
+                exact
+                path="/rank"
+                render={() => (
+                    <>
+                        <MainRank />
+                    </>
+                )}
+            />
         </Switch>
     );
 };
