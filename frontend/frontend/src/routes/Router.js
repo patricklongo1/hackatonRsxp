@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import InterEscola from '../widgets/InterEscola';
 import Challenge from '../widgets/Challenge';
@@ -14,22 +14,22 @@ const Routes = () => {
                 exact
                 path="/"
                 render={() => (
-                    <>
+                    <Fragment>
                         <Banner />
                         <Challenge />
                         <InterEscola />
                         <Contadores />
-                    </>
+                    </Fragment>
                 )}
             />
-            <Route exact path="/login" component={Banner} />
+            <Route exact path="/login" component={Aluno} />
             <Route
                 exact
                 path="/rank"
                 render={() => (
-                    <>
+                    <Fragment>
                         <MainRank />
-                    </>
+                    </Fragment>
                 )}
             />
         </Switch>
